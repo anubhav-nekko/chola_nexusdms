@@ -1014,7 +1014,7 @@ def main():
     elif option == "Query Documents":
         st.header("Query Documents")
         st.sidebar.header("Settings")
-        llm_model = st.sidebar.selectbox("Choose Your Model", ["Skywork R1V2"])
+        llm_model = st.sidebar.selectbox("Choose Your Model", ["Claude 3"])
 
         # "New Chat" button resets conversation and state.
         if st.sidebar.button("New Chat"):
